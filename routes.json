@@ -1,0 +1,6 @@
+[
+  {"method": "GET", "path": "/", "handler": "topHandler"},
+  {"method": "GET", "path": "/users", "handler": "usersIndexHandler"},
+  {"method": "GET", "path": "/users/{id}", "handler": "usersShowHandler"},
+  {"method": "POST", "path": "/users", "handler": "usersCreateHandler"}
+]

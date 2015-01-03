@@ -5,8 +5,8 @@ import (
 	"net/http"
 )
 
-func topHandle(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "topHander")
+func topHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "topHandler")
 }
 
 func main() {
