@@ -6,19 +6,19 @@ import (
 )
 
 func topHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "topHandler")
+	fmt.Fprintln(w, "topHandler")
 }
 
 func usersIndexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "usersIndexHandler")
+	fmt.Fprintln(w, "usersIndexHandler")
 }
 
 func usersShowHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "usersShowHandler")
+	fmt.Fprintln(w, "usersShowHandler")
 }
 
 func usersCreateHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "usersCreateHandler")
+	fmt.Fprintln(w, "usersCreateHandler")
 }
 
 //go:generate gen-router -i routes.json -o router.go
